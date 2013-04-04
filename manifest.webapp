@@ -4,9 +4,6 @@
   "launch_path": "/index.html",
   "type": "privileged",
   "permissions": {
-    "storage": {
-      "description": "Required for storing and retrieving notes."
-      },
     "systemXHR": {
       "description": "Required for cross domain get"
     },

@@ -6,6 +6,11 @@
  *
  * This app uses jsqrcode from https://github.com/LazarSoft/jsqrcode/
  *
+ * Permissions:
+ *
+ * systemXHR - for cross-domain GET requests.
+ * Alarms - to schedule events.
+ *
  */
 
 var homeScreen;
@@ -15,12 +20,15 @@ var pieObj = null;
 function eatThatPie(e) {
     pieObj = JSON.parse(this.responseText);
     console.log(pieObj);
-    homeScreen.classList.add("hidden");
-    eventScreen.classList.remove("hidden");
 
-    document.querySelector("#event-name").innerHTML = pieObj.name;
-    document.querySelector("#event-description").innerHTML = pieObj.description;
-    document.querySelector("#event-start-date").innerHTML = pieObj.startDate;
+    if (pieObj.itemtype == "http://schema.org/Event") {
+        homeScreen.classList.add("hidden");
+        eventScreen.classList.remove("hidden");
+
+        document.querySelector("#event-name").innerHTML = pieObj.name;
+        document.querySelector("#event-description").innerHTML = pieObj.description;
+        document.querySelector("#event-start-date").innerHTML = pieObj.startDate;
+    }
 
 }
 
@@ -41,7 +49,7 @@ function addToSchedule() {
     };
 
      request.onerror = function (event) {
-        console.log("Error AlarmAPI: " + event.target.error.name)
+        console.log("Error AlarmAPI: " + event.target.error.name);
 
         if (event.target.error.name == "InvalidStateError") {
             alert("Can't schedule event in the past!");

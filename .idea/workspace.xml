@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365048632457" ignored="false" />
     <file path="/base.css" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365019542636" ignored="false" />
-    <file path="/app.js" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365049988823" ignored="false" />
+    <file path="/app.js" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365051099738" ignored="false" />
     <file path="/Dummy.txt" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365020134342" ignored="false" />
     <file path="/manifest.webapp" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365049530589" ignored="false" />
     <file path="/dummy.xml" changelist="f2c81687-3a8b-4ec1-9016-2a7cfecfa9aa" time="1365048114748" ignored="false" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="38" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.52715653">
+            <state line="39" column="34" selection-start="1102" selection-end="1109" vertical-scroll-proportion="0.52715653">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="manifest.webapp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.webapp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+            <state line="5" column="18" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -349,14 +349,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.webapp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+        <state line="5" column="18" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="38" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.52715653">
+        <state line="39" column="34" selection-start="1102" selection-end="1109" vertical-scroll-proportion="0.52715653">
           <folding />
         </state>
       </provider>
