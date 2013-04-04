@@ -1,0 +1,24 @@
+{
+  "name": "OpenPieFox",
+  "description": "A simple OpenPie Example",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "permissions": {
+    "storage": {
+      "description": "Required for storing and retrieving notes."
+      },
+    "systemXHR": {
+      "description": "Required for cross domain get"
+    },
+    "alarms": {
+      "description": "Schedule me!"
+    }
+  },
+  "developer": {
+    "name": "Andre Garzia",
+    "url": "http://andregarzia.com"
+  },
+  "icons": {
+    "128": "/style/icons/Blank.png"
+  }
+}
